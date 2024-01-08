@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         String str = count + " ";
         btn.setText(str);
         btn.setText("This is a click number:" + count);
-        btn.setTextSize(30);
+        btn.setTextSize(20);
         btn.setTextColor(Color.BLACK);
         if (count % 7 == 0) {
             btn.setText("BOOM !");
